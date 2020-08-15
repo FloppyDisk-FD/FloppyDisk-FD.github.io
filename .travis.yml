@@ -6,8 +6,8 @@ branches:
   only:
     - hexo # 仅从 hexo 分支构建
 script:
-  - hexo generate # generate static files
-  - hexo c
+    - hexo clean
+    - hexo generate
 deploy:
   provider: pages
   skip-cleanup: true
