@@ -1,11 +1,26 @@
 language: node_js
+
 node_js:
   - 12 # use nodejs v12 LTS
+
 cache: npm
+
 branches:
   only:
     - hexo # 仅从 hexo 分支构建
+
 script:
     - hexo clean
     - hexo generate
-    - hexo deploy
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_REPO_TOKEN
+  keep-history: true
+  committer_from_gh: true
+  target_branch: master # 部署到 master 分支
+  on:
+    branch: hexo
+  local-dir: public
+   
