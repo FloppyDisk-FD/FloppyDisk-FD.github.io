@@ -8,13 +8,4 @@ branches:
 script:
     - hexo clean
     - hexo generate
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_REPO_TOKEN
-  keep-history: true
-  committer_from_gh: true
-  target_branch: master # 部署到 master 分支
-  on:
-    branch: hexo
-  local-dir: public
+    - hexo deploy
