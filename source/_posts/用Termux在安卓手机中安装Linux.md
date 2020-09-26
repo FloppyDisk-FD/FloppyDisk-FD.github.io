@@ -17,11 +17,11 @@ PS:由于本人文笔有限，所以下面内容会出现一些别的博主的�
 Termux下载:[下载链接](https://f-droid.org/zh_Hans/packages/com.termux/ "下载链接")
 Anlinux下载:[下载链接](https://f-droid.org/zh_Hans/packages/exa.lnx.a/ "下载链接")
 1. 授予Termux文件访问权限，运行以下命令
-    termux-setup-storage
-2. 换源，这里使用国光大佬的一键命令，原文链接:[国光博客](https://www.sqlsec.com/ "国光博客")
+    `termux-setup-storage`
+2. 换源，一键命令
 打开你的Termux
 <img src="https://s1.ax1x.com/2020/06/28/Ngw86P.jpg" alt="Termux" border="0">
-    
+    ```
     sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list
     
     sed -i 's@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@' $PREFIX/etc/apt/sources.list.d/game.list
@@ -29,6 +29,7 @@ Anlinux下载:[下载链接](https://f-droid.org/zh_Hans/packages/exa.lnx.a/ "�
     sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable@' $PREFIX/etc/apt/sources.list.d/science.list
     
     pkg update
+    ```
 等待几秒就好了
 3. 开始安装Linux
 还记得Anlinux吗？对，我们接下来要用他来安装
