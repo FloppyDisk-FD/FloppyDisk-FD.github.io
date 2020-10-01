@@ -21,6 +21,7 @@ Anlinux下载:[下载链接](https://f-droid.org/zh_Hans/packages/exa.lnx.a/ "�
 2. 换源，一键命令
 打开你的Termux
 <img src="https://s1.ax1x.com/2020/06/28/Ngw86P.jpg" alt="Termux" border="0">
+
 ```
 sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list
     
@@ -30,6 +31,7 @@ sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.c
     
 pkg update
 ```
+
 等待几秒就好了
 3. 开始安装Linux
 还记得Anlinux吗？对，我们接下来要用他来安装
