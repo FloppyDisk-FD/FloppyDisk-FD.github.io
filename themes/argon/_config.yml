@@ -29,25 +29,18 @@ banner_background_color_type: 'shape-primary' #Banner 渐变样式，Banner 背�
 
 #侧栏
 sidebar_banner_title: '' #侧栏标题，留空则跟随博客标题
-sidebar_banner_subtitle: '' #侧栏子标题，留空则不显示，设为 --hitokoto-- 调用一言
+sidebar_banner_subtitle: --hitokoto-- #侧栏子标题，留空则不显示，设为 --hitokoto-- 调用一言
 sidebar_announcement: '' #侧栏公告，留空则不显示
 leftbar_menu: #侧栏顶部菜单，支持无限层级菜单嵌套
   首页: /
   归档: /archives
-  二级菜单:
-    三级菜单:
-      首页: /
 sidebar_auther_image: '' #侧栏作者头像
 sidebar_auther_name: '' #侧栏作者名，留空则跟随博客名
 leftbar_author_links: #侧栏作者链接列表
-  aaa: /
-  bbb: /
-  ccc: /
+  GitHub: //github.com/FloppyDisk-FD
 leftbar_friend_links: #侧栏友链列表
-  aaa: /
-  bbb: /
-  ccc: /
-show_headindex_number: false #侧栏文章目录是否显示章节编号
+
+show_headindex_number: true #侧栏文章目录是否显示章节编号
 
 #文章
 excerpt: true #是否显示文章摘要，为 false 则显示全文
@@ -57,7 +50,7 @@ reading_speed_cn: 300 #每分钟中文阅读字数，用于计算预计阅读时
 reading_speed_en: 160 #每分钟英文阅读单词数，用于计算预计阅读时间
 donate_qrcode_url: '' #赞赏二维码地址，留空则不显示
 additional_content_after_post: '' #文末追加信息，支持 HTML，留空则不显示
-article_header_style: default #文章内小标题样式，可选值: default, 1, 2
+article_header_style: 1 #文章内小标题样式，可选值: default, 1, 2
 
 
 #背景
@@ -106,8 +99,8 @@ argon_mathjax_v2_cdn_url: //cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config
 katex_cdn_url: //cdn.jsdelivr.net/npm/katex@0.11.1/dist/ #Katex CDN 地址
 
 #代码高亮
-enable_code_highlight: false #是否启用 Highlight.js 代码高亮
-code_theme: vs2015 #代码高亮主题
+enable_code_highlight: true #是否启用 Highlight.js 代码高亮
+code_theme: ocean #代码高亮主题
 
 #脚本
 custom_html_head: '' #页头脚本，HTML
