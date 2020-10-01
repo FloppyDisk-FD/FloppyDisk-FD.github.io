@@ -5,11 +5,11 @@
 # Site
 title: FUTURD
 subtitle: ''
-description: ''
+description: 不要温和地走进那个良夜
 keywords:
-author: Floppy Disk
+author: FloppyDisk
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: argon
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,8 @@ deploy:
   type: git
   repo: git@github.com:FloppyDisk-FD/floppydisk-fd.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  content: true
