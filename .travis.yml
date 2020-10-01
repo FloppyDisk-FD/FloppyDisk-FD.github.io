@@ -10,7 +10,6 @@ branches:
     - hexo # 仅从 hexo 分支构建
 
 script:
-    - hexo clean
     - hexo generate
 
 deploy:
