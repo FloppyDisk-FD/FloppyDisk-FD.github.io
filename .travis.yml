@@ -10,7 +10,7 @@ branches:
     - hexo # 仅从 hexo 分支构建
 
 script:
-    - hexo generate
+    - hexo g
 
 deploy:
   provider: pages
