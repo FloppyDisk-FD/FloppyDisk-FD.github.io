@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest 
         
     steps: 
-    - name: Checkout Repository master branch
+    - name: Checkout Repository hexo branch
       uses: actions/checkout@master 
        
     - name: Setup Node.js 12.x 
