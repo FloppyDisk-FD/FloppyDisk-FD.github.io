@@ -14,7 +14,7 @@ toolbar_icon: '' #顶栏图标图片地址，留空则不显示
 toolbar_icon_link: '' #顶栏图标链接，点击时跳转
 toolbar_title: '' # 顶栏标题，留空则跟随博客标题
 toolbar_menu: #顶栏菜单，支持二级菜单
-  首页: /home
+  首页: /
   二级菜单:
     归档: /archives
 
@@ -116,9 +116,9 @@ custom_html_foot: '' #页尾脚本，HTML
 #评论
 gitalk:
   enable: true #是否启用 Gitalk 评论系统
-  owner: FloppyDisk-FD
-  repo: floppydisk-fd.github.io
-  admin: FloppyDisk-FD
-  clientID: 42e8da239082b651be70
-  clientSecret: f63d8167538229b45589681d6d21c0f3f0cd6169
+  owner: 'FloppyDisk-FD'
+  repo: 'floppydisk-fd.github.io'
+  admin: 'FloppyDisk-FD'
+  clientID: '42e8da239082b651be70'
+  clientSecret: 'f63d8167538229b45589681d6d21c0f3f0cd6169'
 
