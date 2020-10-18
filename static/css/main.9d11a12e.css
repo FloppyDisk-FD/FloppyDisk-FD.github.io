@@ -135,7 +135,7 @@ a {
 #uptime .meta .status.ok {
 	background-image: url(data:image/svg+xml;
 	base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMCI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAybC04IDgtNC00IDEuNS0xLjVMNCA3IDEwLjUuNSAxMiAyeiIgZmlsbD0iIzI4YTc0NSIvPjwvc3ZnPg==);
-        color: #26A69A
+        color: #5848f4
 }
 
 #uptime .meta .status.down {
