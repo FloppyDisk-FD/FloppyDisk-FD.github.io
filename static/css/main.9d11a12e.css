@@ -129,7 +129,8 @@ a {
 #uptime .meta .status {
 	background: 0/14px auto no-repeat;
 	padding-left: 20px;
-	font-size: 14px
+	font-size: 14px;
+        font-weight: bold
 }
 
 #uptime .meta .status.ok {
