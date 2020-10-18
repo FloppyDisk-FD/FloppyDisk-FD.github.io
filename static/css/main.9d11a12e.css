@@ -67,7 +67,7 @@ a {
 }
 
 #header .navi a:hover {
-	color: #4b9b5d
+	color: #0097A7
 }
 
 #uptime {
@@ -165,15 +165,15 @@ a {
 }
 
 #uptime .timeline i.ok {
-	background: #9fd8ac
+	background: #00BCD4
 }
 
 #uptime .timeline i.none {
-	background: #f3f3f3
+	background: #9E9E9E
 }
 
 #uptime .timeline i.down {
-	background: #f29571
+	background: #EF5350
 }
 
 #uptime .tooltip {
