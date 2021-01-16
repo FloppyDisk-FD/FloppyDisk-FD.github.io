@@ -101,7 +101,7 @@ deploy:
   type: git
   repo: 
    github: git@github.com:FloppyDisk-FD/floppydisk-fd.github.io.git
-   coding: git@e.coding.net:futurd/blog/blog.git
+   coding: git@e.coding.net:futurd/website/HexoSite.git
   branch: master
 
 search:
