@@ -4,7 +4,6 @@ date: 2021-03-03 15:11:50
 tags: Termux
 ---
 
-<!--more-->
 # 前言
 
 Termux是一款安卓手机可用的终端，可以模拟一部分Linux操作，但并不是完整的Linux系统，所以我们今天来用Termux安装完整版的Linux发行版系统
@@ -24,7 +23,7 @@ Anlinux下载:[下载链接](https://f-droid.org/zh_Hans/packages/exa.lnx.a/ "�
 2. 换源，一键命令
 打开你的Termux
 <img src="https://s1.ax1x.com/2020/06/28/Ngw86P.jpg" alt="Termux" border="0">
-```
+```shell
 sed -i &#039;s@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@&#039; $PREFIX/etc/apt/sources.list
 
 sed -i &#039;s@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@&#039; $PREFIX/etc/apt/sources.list.d/game.list

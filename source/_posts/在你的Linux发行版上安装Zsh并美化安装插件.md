@@ -11,23 +11,23 @@ Zsh是一款好用的Shell，配置后使用会比较有效率
 
 # 安装
 查看你的Linux上装了哪些Shell
-```
+```shell
 echo $SHELL
 ```
 ## 安装Zsh
 通过包管理器来安装
 Debian系：
-```
+```shell
 sudo apt update
 sudo apt install zsh -y
 ```
 RedHat系：
-```
+```shell
 sudo yum update
 sudo yum install zsh -y
 ```
 Arch系：
-```
+```shell
 sudo pacman -Syu
 sudo pacman -S zsh
 ```
@@ -48,17 +48,17 @@ Oh My Zsh是一款**开源，由社区驱动的管理你的Zsh配置的框架，
 
   首先，运行以下命令
 
-```
+```shell
 sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
 ```
 如果无法下载，可按照以下步骤来解决
-```
+```shell
 vim ~/install.sh
 ```
 按你键盘上的`i`
 复制以下内容并粘贴进去
 
-```
+```shell
 #!/bin/sh
 #
 # This script should be run via curl:
@@ -363,16 +363,16 @@ main "$@"
 ![](http://fd-img.test.upcdn.net/images/prompt-styles-high-contrast.png)
 首先克隆powerlevel10的仓库到主题文件夹
 
-```
+```shell
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 修改`.zshrc`
-```
+```shell
 vim ~/.zshrc
 ```
 将`ZSH_THEME="***"`引号内的内容改为`powerlevel10k/powerlevel10k`
 使配置生效
-```
+```shell
 source ~/.zshrc
 ```
 ## 安装字体
@@ -382,17 +382,17 @@ Nerd Fonts官网:[链接](https://nerdfonts.com/ &quot;链接&quot;)
 ，这里我选择了Hack字体于是我往下翻找到Hack字体，点击下载
 字体安装请自行解决
 接下来，向.zshrc修改这一条
-```
+```shell
 POWERLEVEL9K_MODE='nerdfont-complete'
 ```
 ## 安装插件
 ### 自动补全
-```
+```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 在`.zshrc`里找到`plugins`，加入`zsh-autosuggestions`
 ### 语法高亮
-```
+```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 编辑`.zshrc`向`plugins`加入`zsh-syntax-highlighting`
