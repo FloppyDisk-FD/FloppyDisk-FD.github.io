@@ -912,7 +912,7 @@ links:
       title: "Adkinsm BLOG",
       intro: "Simple Is Best.",
       link: "https://www.adkinsm.com/",
-      avatar: ""
+      avatar: "https://gravatar.futurd.workers.dev/avatar/36445e2d30499d6a60f1147b0eda4fbc"
     }
 
   # 当成员头像加载失败时，替换为指定图片
