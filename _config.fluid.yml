@@ -931,7 +931,7 @@ links:
       intro: "希望是件美好的事，也许是世间最美好的东西，而美好的事物永不消逝!",
       link: "https://www.saroin.com/",
       avatar: "https://www.saroin.com/saroin.jpg"
-    },
+    }
     
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
