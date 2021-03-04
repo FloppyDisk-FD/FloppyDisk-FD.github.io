@@ -913,25 +913,25 @@ links:
       intro: "Simple Is Best.",
       link: "https://www.adkinsm.top/",
       avatar: "https://gravatar.futurd.workers.dev/avatar/36445e2d30499d6a60f1147b0eda4fbc"
-    },
+      },
     - {
       title: "小茶猫",
       intro: "我想写自己想写的字，做自己想做的事，以后去自己想去的地方继续爱着自己想爱的人，这就是我的生活态度。",
       link: "https://www.xiaochamao.com/",
       avatar: "https://www.xiaochamao.com/tx.png"
-    },
+      },
     - {
       title: "果氢のblog",
       intro: "一个热衷于分享资源和教程的网站.....",
       link: "https://iucdm.cn/",
       avatar: "https://iucdm.cn/usr/uploads/2021/01/890896142.png"
-    },
+      },
     - {
       title: "鲸一",
       intro: "希望是件美好的事，也许是世间最美好的东西，而美好的事物永不消逝!",
       link: "https://www.saroin.com/",
       avatar: "https://www.saroin.com/saroin.jpg"
-    }
+      }
     
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
