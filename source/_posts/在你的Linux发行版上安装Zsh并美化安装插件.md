@@ -1,10 +1,12 @@
 ---
 title: 在你的Linux发行版上安装 Zsh 并美化安装插件
 date: 2021-03-03 15:14:50
-tags: Linux,Zsh
+tags: 
+    - Linux
+    - Zsh
 ---
 
-# 序言
+# 前言
 Zsh是一款好用的Shell，配置后使用会比较有效率
 
 ------------
